@@ -1,0 +1,27 @@
+.Blog ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.Blog li {
+    margin: 20px;
+    display: inline-block;
+
+}
+
+.Blog a {
+    color: #333;
+    text-decoration: none;
+}
+
+.Blog a:hover {
+    color: rgb(219, 99, 44);
+}
+
+.Blog a.active {
+    background-color: #333;
+    color: #fff;
+}
